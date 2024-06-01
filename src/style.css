@@ -1,0 +1,54 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
+
+ul {
+    margin: 2ch 0;
+}
+
+li {
+    display: inline-block;
+    cursor: pointer;
+    padding: 1ch;
+    border-radius: 1ch;
+    /* font-weight: 800; */
+    font-size: 2.2ch;
+}
+
+li:hover {
+    background-color: bisque;
+    color: rgb(200, 133, 50);
+}
+
+h1 {
+    font-size: 2ch;
+    font-weight: 400;
+}
+
+img {
+    display: block;
+    width: 500px;
+    height: auto;
+    margin: auto;
+    border-radius: 5ch;
+}
+
+.homeImg {
+    margin: 2ch auto;
+}
+
+figure {
+    margin-bottom: 2ch;
+}
+
+figcaption {
+    color: #bbb;
+}
